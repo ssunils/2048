@@ -1,21 +1,18 @@
 .grid {
-    width: 580px;
-    height: 575px;
-    background-color: #6F6F6F;
+    width: 420px;
+    height: 415px;
+    background-color: #000;
     padding: 10px;
     padding-left: 10px;
     margin: 0 auto;
 }
-
-.gameover {
-    background-color:#BF5700;
-    border-radius: 8px;
-    padding-left: 6px;
+body {
+    background-color: #F7F7F7;
 }
-.boxing {
+.boxing, [data-bg='0'] {
     display: inline-block;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     background-color: #ccc0b3;
     margin: 2px;
     transition: background-color 0.5s ease;
@@ -23,9 +20,44 @@
 .boxing .label {
     color: #FFF;
     width: 100%;
-    height: 130px;
+    height: 100px;
     font-size: 40px;
     text-align: center;
-    line-height: 130px;
+    line-height: 100px;
     display: block;
+}
+/*// Block Colors*/
+
+[data-bg='2']{
+     background-color: #FFBC64;
+ }
+[data-bg='4']{
+    background-color: #E20D0D;
+}
+[data-bg='8']{
+    background-color: #F98B4E;
+}
+[data-bg='16']{
+    background-color: #F94E97;
+}
+[data-bg='32']{
+    background-color: #B54EF9;
+}
+[data-bg='64']{
+    background-color: #574EF9;
+}
+[data-bg='128']{
+    background-color: #4EF9C0;
+}
+[data-bg='256']{
+    background-color: #72A0C1;
+}
+[data-bg='512']{
+    background-color: #0047AB;
+}
+[data-bg='1024']{
+    background-color: #000080;
+}
+[data-bg='2048']{
+    background-color: #000;
 }
