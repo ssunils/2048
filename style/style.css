@@ -8,6 +8,15 @@
 }
 body {
     background-color: #F7F7F7;
+    font-family: arial, sans-serif;
+}
+h1{
+    font-size: 58px;
+    margin: 0;
+}
+p{
+    margin: 0 0 40px 0;
+    font-size: 12px;
 }
 .boxing, [data-bg='0'] {
     display: inline-block;
